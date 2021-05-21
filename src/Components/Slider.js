@@ -41,7 +41,7 @@ function Slider() {
           }
 
           return (
-            <article className={position}>
+            <article className={position} key={images.id}>
               <img src={images.img} className='pic' alt='' />
             </article>
           );
